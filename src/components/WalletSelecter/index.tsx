@@ -88,21 +88,9 @@ export const WalletSelecter = observer(() => {
       icon: '/images/metamask.svg'
     },
     {
-      title: 'ioPay',
-      icon: '/images/iopay.svg'
-    },
-    {
       title: 'Trust',
       icon: '/images/trustwallet.svg'
     },
-    {
-      title: 'Math',
-      icon: '/images/mathwallet.svg'
-    },
-    {
-      title: 'imToken',
-      icon: '/images/imtoken.svg'
-    }
   ];
   const names = config.map((item) => item.title).join(', ');
   return (
