@@ -26,7 +26,7 @@ export class GodStore {
       // allowChains: data.networks.map((i) => i.chainId),
       god: this,
       chain: new MappingState({
-        currentId: 4689,
+        currentId: 43114, 250, 1,
         map: defaultNetworks
           .map(
             (i) =>
