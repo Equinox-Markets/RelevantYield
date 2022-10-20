@@ -89,7 +89,7 @@ export default function HeroTitle() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    user.enableNetworkChecker(window?.location?.pathname, [4689]);
+    user.enableNetworkChecker(window?.location?.pathname, [43114]);
   }, []);
 
   return (
