@@ -54,5 +54,4 @@ export const defaultNetworks: NetworkObject[] = [
     nativeCoin: 'FTM',
     type: 'mainnet'
   },
-  
-};
+];
