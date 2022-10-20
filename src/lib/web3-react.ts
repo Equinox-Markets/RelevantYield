@@ -7,7 +7,6 @@ import { UnsupportedChainIdError } from '@web3-react/core';
 const POLLING_INTERVAL = 12000;
 export const RPC_URLS = {
   137: 'https://polygon-rpc.com/'
-  1: 'https://rpc.ankr.com/eth'
   43114: 'https://rpc.ankr.com/avalanche',
   250: 'https://rpc.ankr.com/fantom',
 };
