@@ -13,7 +13,6 @@ export const RPC_URLS = {
   4689: 'https://babel-api.mainnet.iotex.io/',
   4690: `https://babel-api.testnet.iotex.io`,
   137: 'https://polygon-rpc.com/'
-  137: 'https://polygon-rpc.com/'
   43114: 'https://rpc.ankr.com/avalanche',
   250: 'https://rpc.ankr.com/fantom',
 };
