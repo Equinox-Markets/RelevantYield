@@ -23,7 +23,7 @@ export class UserStore {
     ]
   };
   networkChecker = {
-    supportChainIds: {},
+    supportChainIds: {43114, 250, 1},
     isWrongNetworkDialogOpen: new BooleanState({ value: false })
   };
   get actions(): SpotlightAction[] {
