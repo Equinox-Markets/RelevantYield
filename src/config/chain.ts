@@ -35,26 +35,6 @@ export const defaultNetworks: NetworkObject[] = [
     type: 'mainnet'
   },
   {
-    name: 'BSC',
-    chainId: 56,
-    rpcUrl: 'https://www.ankr.com/rpc/bsc',
-    logoUrl: 'https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/svg/icon/bnb.svg',
-    explorerUrl: 'https://bscscan.com',
-    explorerName: 'BscScan',
-    nativeCoin: 'BNB',
-    type: 'mainnet'
-  },
-  {
-    name: 'IoTeX',
-    chainId: 4689,
-    rpcUrl: 'https://babel-api.mainnet.iotex.io/',
-    logoUrl: 'https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/svg/icon/iotx.svg',
-    explorerUrl: 'https://iotexscan.io',
-    explorerName: 'IotexScan',
-    nativeCoin: 'IOTX',
-    type: 'mainnet'
-  },
-  {
     name: 'Avalanche',
     chainId: 43114,
     rpcUrl: 'https://rpc.ankr.com/avalanche',
@@ -74,44 +54,3 @@ export const defaultNetworks: NetworkObject[] = [
     nativeCoin: 'FTM',
     type: 'mainnet'
   },
-  {
-    name: 'BSC Testnet',
-    chainId: 97,
-    rpcUrl: 'https://data-seed-prebsc-1-s1.binance.org:8545',
-    logoUrl: 'https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/svg/icon/bnb.svg',
-    explorerUrl: 'https://testnet.bscscan.com',
-    explorerName: 'BscScan',
-    nativeCoin: 'BNB',
-    type: 'testnet'
-  },
-  {
-    name: 'ETH Kovan',
-    chainId: 42,
-    rpcUrl: `https://kovan.infura.io/v3/${publicConfig.infuraId}`,
-    logoUrl: 'https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/svg/icon/eth.svg',
-    explorerUrl: 'https://kovan.etherscan.io',
-    explorerName: 'EtherScan',
-    nativeCoin: 'ETH',
-    type: 'testnet'
-  },
-  {
-    name: 'ETH Rinkeby',
-    chainId: 4,
-    rpcUrl: `https://rinkeby.infura.io/v3/${publicConfig.infuraId}`,
-    logoUrl: 'https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/svg/icon/eth.svg',
-    explorerUrl: 'https://rinkeby.etherscan.io',
-    explorerName: 'EtherScan',
-    nativeCoin: 'ETH',
-    type: 'testnet'
-  },
-  {
-    name: 'IoTeX Testnet',
-    chainId: 4690,
-    rpcUrl: `https://babel-api.testnet.iotex.io`,
-    logoUrl: 'https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@1a63530be6e374711a8554f31b17e4cb92c25fa5/svg/icon/iotx.svg',
-    explorerUrl: 'https://testnet.iotexscan.io',
-    explorerName: 'IotexScan',
-    nativeCoin: 'IOTX',
-    type: 'testnet'
-  }
-];
